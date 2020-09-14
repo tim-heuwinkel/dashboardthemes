@@ -179,7 +179,7 @@ theme_purple_gradient <- shinyDashboardThemeDIY(
   ,buttonTextColorHover = "rgb(255,255,255)"
   ,buttonBorderColorHover = "rgb(115,210,240)"
   
-  ,textboxBackColor = "rgb(204,204,204)"
+  ,textboxBackColor = "rgb(218,218,218)"
   ,textboxBorderColor = "rgb(30,60,105)"
   ,textboxBorderRadius = 20
   ,textboxBackColorSelect = "rgb(40,70,115)"
