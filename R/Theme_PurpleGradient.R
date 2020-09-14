@@ -35,11 +35,11 @@ logo_purple_gradient <- function(boldText = "Shiny", mainText = "App", badgeText
 #' @seealso \code{\link{shinyDashboardThemeDIY}}
 #' @export
 theme_purple_gradient <- shinyDashboardThemeDIY(
-
+  
   ### general
   appFontFamily = "Arial"
   ,appFontColor = "rgb(128,177,221)"
-  ,primaryFontColor = "rgb(255,255,255)"
+  ,primaryFontColor = "rgb(128,177,221)"
   ,infoFontColor = "rgb(255,255,255)"
   ,successFontColor = "rgb(255,255,255)"
   ,warningFontColor = "rgb(255,255,255)"
@@ -53,19 +53,19 @@ theme_purple_gradient <- shinyDashboardThemeDIY(
     ,colorMiddlePos = 70
     ,colorEndPos = 100
   )
-
+  
   ### header
   ,logoBackColor = "rgb(49,56,107)"
-
+  
   ,headerButtonBackColor = "rgb(49,56,107)"
   ,headerButtonIconColor = "rgb(62,133,179)"
   ,headerButtonBackColorHover = "rgb(49,56,107)"
   ,headerButtonIconColorHover = "rgb(255,255,255)"
-
+  
   ,headerBackColor = "rgb(49,56,107)"
   ,headerBoxShadowColor = ""
   ,headerBoxShadowSize = "0px 0px 0px"
-
+  
   ### sidebar
   ,sidebarBackColor = cssGradientThreeColors(
     direction = "down"
@@ -76,11 +76,11 @@ theme_purple_gradient <- shinyDashboardThemeDIY(
     ,colorMiddlePos = 70
     ,colorEndPos = 100
   )
-
+  
   ,sidebarShadowRadius = ""
   ,sidebarPadding = 10
   ,sidebarShadowColor = "0px 0px 0px"
-
+  
   ,sidebarMenuBackColor = cssGradientThreeColors(
     direction = "right"
     ,colorStart = "rgb(48,103,157)"
@@ -92,19 +92,19 @@ theme_purple_gradient <- shinyDashboardThemeDIY(
   )
   ,sidebarMenuPadding = 5
   ,sidebarMenuBorderRadius = 20
-
+  
   ,sidebarUserTextColor = "rgb(128,177,221)"
-
+  
   ,sidebarSearchBackColor = "rgb(40,70,115)"
   ,sidebarSearchIconColor = "rgb(50,115,145)"
   ,sidebarSearchBorderColor = "rgb(30,60,105)"
-
+  
   ,sidebarTabTextColor = "rgb(128,177,221)"
   ,sidebarTabTextSize = 13
   ,sidebarTabBorderStyle = "none"
   ,sidebarTabBorderColor = "none"
   ,sidebarTabBorderWidth = 0
-
+  
   ,sidebarTabBackColorSelected = cssGradientThreeColors(
     direction = "right"
     ,colorStart = "rgb(56,137,189)"
@@ -116,7 +116,7 @@ theme_purple_gradient <- shinyDashboardThemeDIY(
   )
   ,sidebarTabTextColorSelected = "rgb(255,255,255)"
   ,sidebarTabRadiusSelected = "30px"
-
+  
   ,sidebarTabBackColorHover = cssGradientThreeColors(
     direction = "right"
     ,colorStart = "rgb(56,137,189)"
@@ -131,7 +131,7 @@ theme_purple_gradient <- shinyDashboardThemeDIY(
   ,sidebarTabBorderColorHover = "none"
   ,sidebarTabBorderWidthHover = 0
   ,sidebarTabRadiusHover = "30px"
-
+  
   ### boxes
   ,boxBackColor = cssGradientThreeColors(
     direction = "right"
@@ -152,7 +152,7 @@ theme_purple_gradient <- shinyDashboardThemeDIY(
   ,boxSuccessColor = "rgb(64,186,170)"
   ,boxWarningColor = "rgb(255,217,144)"
   ,boxDangerColor = "rgb(249,144,144)"
-
+  
   ,tabBoxTabColor = "rgb(80,95,155)"
   ,tabBoxTabTextSize = 14
   ,tabBoxTabTextColor = "rgb(128,177,221)"
@@ -168,29 +168,29 @@ theme_purple_gradient <- shinyDashboardThemeDIY(
   )
   ,tabBoxHighlightColor = "rgb(80,95,155)"
   ,tabBoxBorderRadius = 15
-
+  
   ### inputs
   ,buttonBackColor = "rgb(72,190,229)"
   ,buttonTextColor = "rgb(40,63,106)"
   ,buttonBorderColor = "rgb(72,190,229)"
   ,buttonBorderRadius = 20
-
+  
   ,buttonBackColorHover = "rgb(115,210,240)"
   ,buttonTextColorHover = "rgb(255,255,255)"
   ,buttonBorderColorHover = "rgb(115,210,240)"
-
-  ,textboxBackColor = "rgb(40,70,115)"
+  
+  ,textboxBackColor = "rgb(210,210,210)"
   ,textboxBorderColor = "rgb(30,60,105)"
   ,textboxBorderRadius = 20
   ,textboxBackColorSelect = "rgb(40,70,115)"
   ,textboxBorderColorSelect = "rgb(30,60,105)"
-
+  
   ### tables
   ,tableBackColor = "transparent"
   ,tableBorderColor = "rgb(80,95,155)"
   ,tableBorderTopSize = 1
   ,tableBorderRowSize = 1
-
+  
 )
 
 # End Exclude Linting
